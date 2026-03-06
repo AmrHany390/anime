@@ -1,0 +1,93 @@
+.background{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+
+  background-image:url("./bg2.jpg");
+  background-size:cover;
+  background-position:center;
+
+  filter: blur(5px);
+
+  z-index:-1;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+    font-family: 'Titan one', cursive;
+    color: #FF9F1C;
+    margin: 0;
+    
+}
+.yeager{
+    color: gold;
+}
+h3{color: #4CC9F0}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 35px ;
+}
+.text{
+    flex: 1;
+    
+}
+.a7a{
+    color: #F8F9FA;
+}
+.bio{
+    padding: px 50px;
+    font-family: 'Titan one';
+    color: #b08115;
+    font-size: 20px;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    .img-container{
+        display: flex;
+        gap: 40px   ;
+        padding-left: 20px;
+    }
+    .img1{
+        width: 250px;
+        border-radius: 5%;
+        border-style: ridge;
+        display: block;
+    }
+    .img2{
+         width: 250px;
+        border-radius: 5%;
+        border-style: ridge;
+        display: block;
+    }
+      .img3{
+         width: 250px;
+        border-radius: 5%;
+        border-style: ridge;
+        display: block;
+    }
+      .img4{
+         width: 250px;
+        border-radius: 5%;
+        border-style: ridge;
+        display: block;
+    }
+     .img5{
+         width: 250px;
+        border-radius: 5%;
+        border-style: ridge;
+        display: block;
+    }
+    .btn{display: flex;
+    justify-content: center; }
+    .card-btn{
+    background-color: #ff6600;
+      color: #fff;
+      border-radius: 5px;
+      border: none;
+    }

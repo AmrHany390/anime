@@ -1,0 +1,160 @@
+body{
+  margin:0;
+}
+
+.background{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+
+  background-image:url("./anime_texture_background.jpg");
+  background-size:cover;
+  background-position:center;
+
+  filter: blur(5px);
+
+  z-index:-1;
+}
+
+.content{
+  position:relative;
+  text-align:center;
+  color:white;
+}
+
+.top {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: white;
+   
+}
+.second{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+
+}
+.anime{
+    
+    color: gold;
+}
+.container{
+    display: inline-flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    
+}
+
+
+.eren-card {
+    position: relative;       /* for overlay positioning */
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;         /* keeps overlay and image inside card */
+}
+
+.pic1 {
+    width: 400px;
+    height: 139px;
+    display: block;
+    border-radius: 5%;
+}
+
+.Eren-card {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+    color: white;
+    padding: 5px 5px 5px 5px; /* bottom padding keeps space inside overlay */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;        /* ensures padding doesn't break layout */
+}
+
+.attack {
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 3px solid orange; /* orange underline */
+   
+}
+
+.erenn {
+    font-size: 10px;
+    line-height: 1.3;
+    /* optional fine-tune: move text slightly up without affecting overlay */
+; /* adjust this to move the text up/down */
+
+    max-width: 170px;
+    text-align: left;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.card-btn{
+
+      background-color: #ff6600;
+      color: #fff;
+      border-radius: 5px;
+      border: none;}
+      .naruto-card {
+    position: relative;       /* for overlay positioning */
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;         /* keeps overlay and image inside card */
+}
+.Naruto-card {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+    color: white;
+    padding: 5px 5px 5px 5px; /* bottom padding keeps space inside overlay */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;        /* ensures padding doesn't break layout */
+}
+.Luffy-card {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+    color: white;
+    padding: 5px 5px 5px 5px; /* bottom padding keeps space inside overlay */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;        /* ensures padding doesn't break layout */
+}
+.luffy-card {
+    position: relative;       /* for overlay positioning */
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;         /* keeps overlay and image inside card */
+}
+   .ichigo-card {
+    position: relative;       /* for overlay positioning */
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;         /* keeps overlay and image inside card */
+}
+.Ichigo-card {
+     position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+    color: white;
+    padding: 5px 5px 5px 5px; /* bottom padding keeps space inside overlay */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;        /* ensures padding doesn't break layout */
+}
